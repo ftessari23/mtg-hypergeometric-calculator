@@ -73,7 +73,7 @@ st.markdown(
     **Example 1**: You want to know what is the probability to draw 3 lands (`k=3`) in an opening hand (`n=7`) 
     knowing that your deck has `N=60` cards and a total of `K=24` lands. 
 
-    **Example 2**: You are playing a MTG modern game i.e., the deck has 60 cards. You are at turn 5, and you already drew your opening hand plus other 5 cards because you were on the play.
+    **Example 2**: You are playing a MTG modern game i.e., the deck has 60 cards. You are at turn 5, and you already drew your opening hand plus 5 other cards because you were on the draw.
     The total number of cards left in your deck are, then, 60-7-5=48. You are running dry on lands since you played only 3 of the 21 lands you have in your deck. This means that in your deck you are left with 18 lands.
     To corerctly decide how to play your next turn, you want to know what is the probability to find one, two or three lands in the next 3 turns i.e., the next 3 draws. In this case you just have to set `N=48`, `K=18`, `k=1,2,3`, `n=3`.
     """
