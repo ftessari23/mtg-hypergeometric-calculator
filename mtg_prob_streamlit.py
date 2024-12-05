@@ -63,7 +63,7 @@ st.markdown(
     """
     ### About This Application
     This code is designed for Magic The Gathering players, but it actually applies to any Trading Card Game.  
-    The app computes the probability of drawing a certain number of cards ('k') out of a certain number of draws ('n'), 
+    The app computes the probability of drawing a certain number of cards (`k`) out of a certain number of draws (`n`), 
     considering that the deck has `N` total cards and `K` cards of the interested type.
 
     The algorithm is based on the hypergeometric distribution. Please refer to the Wikipedia page for more details on the math: https://en.wikipedia.org/wiki/Hypergeometric_distribution
